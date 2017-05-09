@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "878270104337",
+    "firebase_url": "https://simplelongmultiplicationcal.firebaseio.com",
+    "project_id": "simplelongmultiplicationcal",
+    "storage_bucket": "simplelongmultiplicationcal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878270104337:android:4c3210a7643d0045",
+        "android_client_info": {
+          "package_name": "com.shyomnience.dropof.simplelongmultiplicationcalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878270104337-shk4q5vsbb97uhec8986dmcp837s8lp5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shyomnience.dropof.simplelongmultiplicationcalculator",
+            "certificate_hash": "5ed81fbd77d62ff98809c9877781b92e7d4b2ab0"
+          }
+        },
+        {
+          "client_id": "878270104337-7bqmlq05lo0074hpi3f51mmvvtagou40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRqbGLiAtJqpkndeykde0YQtXVqPmI6ME"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878270104337-7bqmlq05lo0074hpi3f51mmvvtagou40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

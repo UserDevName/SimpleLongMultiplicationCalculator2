@@ -1,0 +1,2464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shyomnience.dropof.simplelongmultiplicationcalculator.MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:baselineAlignBottom="true"/>
+
+
+    <EditText
+        android:id="@+id/top"
+
+        android:ems="10"
+        android:hint="0"
+        android:inputType="number"
+        android:maxLength="1"
+        android:layout_x="195dp"
+        android:layout_y="139dp"
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="86%"
+        app:layout_marginTopPercent="31%"
+        app:layout_widthPercent="6%"
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        android:scaleType="fitXY"
+        android:gravity="top"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/transparent"
+
+        />
+
+    <EditText
+        android:id="@+id/top2"
+        android:layout_x="195dp"
+        android:layout_y="139dp"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="number"
+        android:maxLength="1"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+
+        android:textAlignment="0"
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="81.1%"
+        app:layout_marginTopPercent="31%"
+        app:layout_widthPercent="6%"
+        android:textSize="24sp"
+        android:scaleType="fitXY"
+        android:gravity="top"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/transparent"
+        />
+
+
+    <EditText
+        android:id="@+id/top3"
+        android:layout_x="275dp"
+        android:layout_y="139dp"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+
+
+
+        app:layout_marginLeftPercent="76.1%"
+        app:layout_marginTopPercent="31%"
+        app:layout_widthPercent="6%"
+        app:layout_heightPercent="8%"
+        android:textSize="24sp"
+        android:scaleType="fitXY"
+        android:gravity="top"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/transparent"
+        />
+
+    <EditText
+        android:id="@+id/top4"
+
+        android:layout_x="255dp"
+        android:layout_y="139dp"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+
+        app:layout_marginLeftPercent="71.2%"
+        app:layout_marginTopPercent="31%"
+        app:layout_widthPercent="6%"
+        app:layout_heightPercent="8%"
+        android:textSize="24sp"
+        android:scaleType="fitXY"
+        android:gravity="top"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/transparent"
+        />
+
+    <EditText
+        android:id="@+id/top5"
+        android:layout_x="235dp"
+        android:layout_y="139dp"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+
+        app:layout_marginLeftPercent="66.2%"
+        app:layout_marginTopPercent="31%"
+        app:layout_widthPercent="6%"
+        app:layout_heightPercent="8%"
+        android:textSize="24sp"
+        android:scaleType="fitXY"
+        android:gravity="top"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/transparent"
+        />
+
+    <EditText
+        android:id="@+id/top6"
+        android:layout_x="215dp"
+        android:layout_y="139dp"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+
+        app:layout_marginLeftPercent="61.3%"
+        app:layout_marginTopPercent="31%"
+        app:layout_widthPercent="6%"
+        app:layout_heightPercent="8%"
+        android:textSize="24sp"
+        android:scaleType="fitXY"
+        android:gravity="top"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/transparent"
+        />
+
+    <EditText
+        android:id="@+id/bott"
+        android:layout_x="315dp"
+        android:layout_y="179dp"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+
+        app:layout_marginLeftPercent="86%"
+        app:layout_marginTopPercent="35.5%"
+        app:layout_widthPercent="6%"
+        app:layout_heightPercent="8%"
+        android:textSize="24sp"
+        android:scaleType="fitXY"
+        android:gravity="top"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/transparent"
+        />
+
+
+    <EditText
+        android:id="@+id/bott2"
+        android:layout_x="315dp"
+        android:layout_y="179dp"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+
+        app:layout_marginLeftPercent="81.1%"
+        app:layout_marginTopPercent="35.5%"
+        app:layout_widthPercent="6%"
+        app:layout_heightPercent="8%"
+        android:textSize="24sp"
+        android:scaleType="fitXY"
+        android:gravity="top"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/transparent"
+        />
+
+    <EditText
+        android:id="@+id/bott3"
+        android:layout_x="275dp"
+        android:layout_y="179dp"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+
+        app:layout_marginLeftPercent="76.1%"
+        app:layout_marginTopPercent="35.5%"
+        app:layout_widthPercent="6%"
+        app:layout_heightPercent="8%"
+        android:textSize="24sp"
+        android:scaleType="fitXY"
+        android:gravity="top"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/transparent"
+        />
+
+    <EditText
+        android:id="@+id/bott4"
+        android:layout_x="255dp"
+        android:layout_y="179dp"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+
+        app:layout_marginLeftPercent="71.2%"
+        app:layout_marginTopPercent="35.5%"
+        app:layout_widthPercent="6%"
+        app:layout_heightPercent="8%"
+        android:textSize="24sp"
+        android:scaleType="fitXY"
+        android:gravity="top"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/transparent"
+        />
+
+    <EditText
+        android:id="@+id/bott5"
+        android:layout_x="235dp"
+        android:layout_y="179dp"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+
+        app:layout_marginLeftPercent="66.2%"
+        app:layout_marginTopPercent="35.5%"
+        app:layout_widthPercent="6%"
+        app:layout_heightPercent="8%"
+        android:textSize="24sp"
+        android:scaleType="fitXY"
+        android:gravity="top"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/transparent"
+        />
+
+    <EditText
+        android:id="@+id/bott6"
+        android:layout_x="215dp"
+        android:layout_y="179dp"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+
+        app:layout_marginLeftPercent="61.3%"
+        app:layout_marginTopPercent="35.5%"
+        app:layout_widthPercent="6%"
+        app:layout_heightPercent="8%"
+        android:textSize="24sp"
+        android:scaleType="fitXY"
+        android:gravity="top"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/transparent"
+        />
+
+    <TextView
+        android:id="@+id/fst1"
+        android:layout_x="315dp"
+        android:layout_y="221dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="85%"
+        app:layout_marginTopPercent="43.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/fst2"
+        android:layout_x="295dp"
+        android:layout_y="221dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="80.1%"
+        app:layout_marginTopPercent="43.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/fst3"
+        android:layout_x="275dp"
+        android:layout_y="221dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="75.1%"
+        app:layout_marginTopPercent="43.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/fst4"
+        android:layout_x="255dp"
+        android:layout_y="221dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="70.2%"
+        app:layout_marginTopPercent="43.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/fst5"
+        android:layout_x="235dp"
+        android:layout_y="221dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="65.2%"
+        app:layout_marginTopPercent="43.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/fst6"
+        android:layout_x="215dp"
+        android:layout_y="221dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="60.3%"
+        app:layout_marginTopPercent="43.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/fst7"
+        android:layout_x="195dp"
+        android:layout_y="221dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="55.3%"
+        app:layout_marginTopPercent="43.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/scnd1"
+        android:layout_x="314dp"
+        android:layout_y="261dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="85%"
+        app:layout_marginTopPercent="49.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/scnd2"
+        android:layout_x="295dp"
+        android:layout_y="261dp"
+        android:ems="10"
+        android:gravity="center"
+
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="80.1%"
+        app:layout_marginTopPercent="49.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/scnd3"
+        android:layout_x="275dp"
+        android:layout_y="261dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="75.1%"
+        app:layout_marginTopPercent="49.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/scnd4"
+        android:layout_x="255dp"
+        android:layout_y="261dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="70.2%"
+        app:layout_marginTopPercent="49.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/scnd5"
+        android:layout_x="235dp"
+        android:layout_y="261dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="65.2%"
+        app:layout_marginTopPercent="49.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/scnd6"
+        android:layout_x="215dp"
+        android:layout_y="261dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="60.3%"
+        app:layout_marginTopPercent="49.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/scnd7"
+        android:layout_x="195dp"
+        android:layout_y="261dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="55.3%"
+        app:layout_marginTopPercent="49.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/scnd8"
+        android:layout_x="175dp"
+        android:layout_y="261dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="50.4%"
+        app:layout_marginTopPercent="49.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/trd1"
+        android:layout_x="315dp"
+        android:layout_y="301dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="85%"
+        app:layout_marginTopPercent="55.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/trd2"
+        android:layout_x="295dp"
+        android:layout_y="301dp"
+        android:ems="10"
+        android:gravity="center"
+
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="80.1%"
+        app:layout_marginTopPercent="55.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/trd3"
+        android:layout_x="275dp"
+        android:layout_y="301dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="75.1%"
+        app:layout_marginTopPercent="55.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/trd4"
+        android:layout_x="254dp"
+        android:layout_y="301dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="70.2%"
+        app:layout_marginTopPercent="55.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/trd5"
+        android:layout_x="254dp"
+        android:layout_y="301dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="65.2%"
+        app:layout_marginTopPercent="55.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/trd6"
+        android:layout_x="215dp"
+        android:layout_y="301dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="60.3%"
+        app:layout_marginTopPercent="55.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/trd7"
+        android:layout_x="195dp"
+        android:layout_y="301dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="55.3%"
+        app:layout_marginTopPercent="55.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/trd8"
+        android:layout_x="175dp"
+        android:layout_y="301dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="50.4%"
+        app:layout_marginTopPercent="55.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/trd9"
+        android:layout_x="155dp"
+        android:layout_y="301dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="45.4%"
+        app:layout_marginTopPercent="55.4%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/frth1"
+        android:layout_x="315dp"
+        android:layout_y="341dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="85%"
+        app:layout_marginTopPercent="61.35%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/frth2"
+        android:layout_x="295dp"
+        android:layout_y="341dp"
+        android:ems="10"
+        android:gravity="center"
+
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="80.1%"
+        app:layout_marginTopPercent="61.35%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/frth3"
+        android:layout_x="275dp"
+        android:layout_y="341dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="75.1%"
+        app:layout_marginTopPercent="61.35%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/frth4"
+        android:layout_x="255dp"
+        android:layout_y="341dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="70.2%"
+        app:layout_marginTopPercent="61.35%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/frth5"
+        android:layout_x="235dp"
+        android:layout_y="341dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="65.2%"
+        app:layout_marginTopPercent="61.35%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/frth6"
+        android:layout_x="215dp"
+        android:layout_y="341dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="60.3%"
+        app:layout_marginTopPercent="61.35%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/frth7"
+        android:layout_x="195dp"
+        android:layout_y="341dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="55.3%"
+        app:layout_marginTopPercent="61.35%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/frth8"
+        android:layout_x="175dp"
+        android:layout_y="341dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="50.4%"
+        app:layout_marginTopPercent="61.35%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/frth9"
+        android:layout_x="155dp"
+        android:layout_y="341dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="45.4%"
+        app:layout_marginTopPercent="61.35%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/frth10"
+        android:layout_x="135dp"
+        android:layout_y="341dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="40.5%"
+        app:layout_marginTopPercent="61.35%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/ffth1"
+        android:layout_x="315dp"
+        android:layout_y="381dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="85%"
+        app:layout_marginTopPercent="67.35%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/ffth2"
+        android:layout_x="295dp"
+        android:layout_y="381dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="80.1%"
+        app:layout_marginTopPercent="67.35%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/ffth3"
+        android:layout_x="275dp"
+        android:layout_y="381dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="75.1%"
+        app:layout_marginTopPercent="67.35%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/ffth4"
+        android:layout_x="255dp"
+        android:layout_y="381dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="70.2%"
+        app:layout_marginTopPercent="67.35%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/ffth5"
+        android:layout_x="235dp"
+        android:layout_y="381dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="65.2%"
+        app:layout_marginTopPercent="67.35%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/ffth6"
+        android:layout_x="215dp"
+        android:layout_y="381dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="60.3%"
+        app:layout_marginTopPercent="67.35%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/ffth7"
+        android:layout_x="195dp"
+        android:layout_y="381dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="55.3%"
+        app:layout_marginTopPercent="67.35%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/ffth8"
+        android:layout_x="175dp"
+        android:layout_y="381dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="50.4%"
+        app:layout_marginTopPercent="67.35%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/ffth9"
+        android:layout_x="155dp"
+        android:layout_y="381dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="45.4%"
+        app:layout_marginTopPercent="67.35%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/ffth10"
+        android:layout_x="135dp"
+        android:layout_y="381dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="40.5%"
+        app:layout_marginTopPercent="67.35%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/ffth11"
+        android:layout_x="115dp"
+        android:layout_y="381dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="35.5%"
+        app:layout_marginTopPercent="67.35%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/sxth1"
+        android:layout_x="315dp"
+        android:layout_y="421dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="85%"
+        app:layout_marginTopPercent="73.25%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/sxth2"
+        android:layout_x="295dp"
+        android:layout_y="421dp"
+        android:ems="10"
+        android:gravity="center"
+
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="80.1%"
+        app:layout_marginTopPercent="73.25%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/sxth3"
+        android:layout_x="275dp"
+        android:layout_y="421dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="75.1%"
+        app:layout_marginTopPercent="73.25%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/sxth4"
+        android:layout_x="255dp"
+        android:layout_y="421dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="70.2%"
+        app:layout_marginTopPercent="73.25%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/sxth5"
+        android:layout_x="235dp"
+        android:layout_y="421dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="65.2%"
+        app:layout_marginTopPercent="73.25%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/sxth6"
+        android:layout_x="215dp"
+        android:layout_y="421dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="60.3%"
+        app:layout_marginTopPercent="73.25%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/sxth7"
+        android:layout_x="195dp"
+        android:layout_y="421dp"
+        android:ems="10"
+        android:gravity="center"
+
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="55.3%"
+        app:layout_marginTopPercent="73.25%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/sxth8"
+        android:layout_x="175dp"
+        android:layout_y="421dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="50.4%"
+        app:layout_marginTopPercent="73.25%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/sxth9"
+        android:layout_x="155dp"
+        android:layout_y="421dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="45.4%"
+        app:layout_marginTopPercent="73.25%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/sxth10"
+        android:layout_x="135dp"
+        android:layout_y="421dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="40.5%"
+        app:layout_marginTopPercent="73.25%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/sxth11"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="35.5%"
+        app:layout_marginTopPercent="73.25%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/sxth12"
+        android:layout_x="95dp"
+        android:layout_y="421dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="none"
+        android:textAlignment="center"
+
+        android:textColorHint="@color/common_google_signin_btn_text_light_disabled"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="30.6%"
+        app:layout_marginTopPercent="73.25%"
+        app:layout_widthPercent="5%" />
+
+    <TextView
+        android:id="@+id/ans1"
+        android:layout_x="315dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@android:color/transparent"
+        android:textDirection="inherit"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="85%"
+        app:layout_marginTopPercent="79.65%"
+        app:layout_widthPercent="5%"
+        android:enabled="true"
+        android:cursorVisible="true"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/ans2"
+        android:layout_x="295dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@android:color/transparent"
+        android:textDirection="inherit"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="80.1%"
+        app:layout_marginTopPercent="79.65%"
+        app:layout_widthPercent="5%"
+        android:enabled="true"
+        android:cursorVisible="true"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/ans3"
+        android:layout_x="275dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@android:color/transparent"
+        android:textDirection="inherit"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="75.1%"
+        app:layout_marginTopPercent="79.65%"
+        app:layout_widthPercent="5%"
+        android:enabled="true"
+        android:cursorVisible="true"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/ans4"
+        android:layout_x="255dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@android:color/transparent"
+        android:textDirection="inherit"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="70.2%"
+        app:layout_marginTopPercent="79.65%"
+        app:layout_widthPercent="5%"
+        android:enabled="true"
+        android:cursorVisible="true"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/ans5"
+        android:layout_x="235dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@android:color/transparent"
+        android:textDirection="inherit"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="65.2%"
+        app:layout_marginTopPercent="79.65%"
+        app:layout_widthPercent="5%"
+        android:enabled="true"
+        android:cursorVisible="true"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/ans6"
+        android:layout_x="215dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@android:color/transparent"
+        android:textDirection="inherit"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="60.3%"
+        app:layout_marginTopPercent="79.65%"
+        app:layout_widthPercent="5%"
+        android:enabled="true"
+        android:cursorVisible="true"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/ans7"
+        android:layout_x="195dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@android:color/transparent"
+        android:textDirection="inherit"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="55.3%"
+        app:layout_marginTopPercent="79.65%"
+        app:layout_widthPercent="5%"
+        android:enabled="true"
+        android:cursorVisible="true"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/ans8"
+        android:layout_x="175dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@android:color/transparent"
+        android:textDirection="inherit"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="50.4%"
+        app:layout_marginTopPercent="79.65%"
+        app:layout_widthPercent="5%"
+        android:enabled="true"
+        android:cursorVisible="true"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/ans9"
+        android:layout_x="155dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@android:color/transparent"
+        android:textDirection="inherit"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="45.4%"
+        app:layout_marginTopPercent="79.65%"
+        app:layout_widthPercent="5%"
+        android:enabled="true"
+        android:cursorVisible="true"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/ans10"
+        android:layout_x="135dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@android:color/transparent"
+        android:textDirection="inherit"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="40.5%"
+        app:layout_marginTopPercent="79.65%"
+        app:layout_widthPercent="5%"
+        android:enabled="true"
+        android:cursorVisible="true"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/ans11"
+        android:layout_x="115dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@android:color/transparent"
+        android:textDirection="inherit"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="35.5%"
+        app:layout_marginTopPercent="79.65%"
+        app:layout_widthPercent="5%"
+        android:enabled="true"
+        android:cursorVisible="true"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/ans12"
+        android:layout_x="95dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@android:color/transparent"
+        android:textDirection="inherit"
+        android:textSize="24sp"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="30.6%"
+        app:layout_marginTopPercent="79.65%"
+        app:layout_widthPercent="5%"
+        android:enabled="true"
+        android:cursorVisible="true"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/ans13"
+        android:layout_x="75dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@android:color/transparent"
+
+        android:textDirection="inherit"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_heightPercent="6%"
+        app:layout_marginLeftPercent="25.6%"
+        app:layout_marginTopPercent="79.65%"
+        app:layout_widthPercent="5%"
+        android:enabled="true"
+        android:cursorVisible="true"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/car11"
+        android:layout_x="295dp"
+        android:layout_y="127dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="80.1%"
+        app:layout_marginTopPercent="27.7%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car12"
+        android:layout_x="275dp"
+        android:layout_y="127dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="75.1%"
+        app:layout_marginTopPercent="27.7%"
+        app:layout_widthPercent="3%"/>
+
+
+    <TextView
+        android:id="@+id/car13"
+        android:layout_x="255dp"
+        android:layout_y="127dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="70.2%"
+        app:layout_marginTopPercent="27.7%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car14"
+        android:layout_x="235dp"
+        android:layout_y="127dp"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="65.2%"
+        app:layout_marginTopPercent="27.7%"
+        app:layout_widthPercent="3%"/>
+
+
+    <TextView
+        android:id="@+id/car15"
+        android:layout_x="215dp"
+        android:layout_y="127dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="60.3%"
+        app:layout_marginTopPercent="27.7%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car21"
+        android:layout_x="295dp"
+        android:layout_y="111dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="80.1%"
+        app:layout_marginTopPercent="23.7%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car22"
+        android:layout_x="275dp"
+        android:layout_y="111dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="75.1%"
+        app:layout_marginTopPercent="23.7%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car23"
+        android:layout_x="255dp"
+        android:layout_y="111dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="70.2%"
+        app:layout_marginTopPercent="23.7%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car24"
+        android:layout_x="235dp"
+        android:layout_y="111dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="65.2%"
+        app:layout_marginTopPercent="23.7%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car25"
+        android:layout_x="215dp"
+        android:layout_y="111dp"
+        android:gravity="center"
+        android:text="0"
+
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="60.3%"
+        app:layout_marginTopPercent="23.7%"
+        app:layout_widthPercent="3%"/>
+
+
+    <TextView
+        android:id="@+id/car31"
+        android:layout_x="295dp"
+        android:layout_y="94dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="80.1%"
+        app:layout_marginTopPercent="19.7%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car32"
+        android:layout_x="275dp"
+        android:layout_y="94dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="75.1%"
+        app:layout_marginTopPercent="19.7%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car33"
+        android:layout_x="255dp"
+        android:layout_y="94dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="70.2%"
+        app:layout_marginTopPercent="19.7%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car34"
+        android:layout_x="235dp"
+        android:layout_y="94dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="65.2%"
+        app:layout_marginTopPercent="19.7%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car35"
+        android:layout_x="215dp"
+        android:layout_y="94dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="60.3%"
+        app:layout_marginTopPercent="19.7%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car41"
+        android:layout_x="295dp"
+        android:layout_y="78dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="80.1%"
+        app:layout_marginTopPercent="15.7%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car42"
+        android:layout_x="275dp"
+        android:layout_y="78dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="75.1%"
+        app:layout_marginTopPercent="15.7%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car43"
+        android:layout_x="255dp"
+        android:layout_y="78dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="70.2%"
+        app:layout_marginTopPercent="15.7%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car44"
+        android:layout_x="235dp"
+        android:layout_y="78dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="65.2%"
+        app:layout_marginTopPercent="15.7%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car45"
+        android:layout_x="215dp"
+        android:layout_y="78dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="60.3%"
+        app:layout_marginTopPercent="15.7%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car51"
+        android:layout_x="295dp"
+        android:layout_y="62dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="80.1%"
+        app:layout_marginTopPercent="11.6%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car52"
+        android:layout_x="275dp"
+        android:layout_y="62dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="75.2%"
+        app:layout_marginTopPercent="11.6%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car53"
+        android:layout_x="255dp"
+        android:layout_y="62dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="70.2%"
+        app:layout_marginTopPercent="11.6%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car54"
+        android:layout_x="235dp"
+        android:layout_y="62dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="65.3%"
+        app:layout_marginTopPercent="11.6%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car55"
+        android:layout_x="215dp"
+        android:layout_y="62dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="60.3%"
+        app:layout_marginTopPercent="11.6%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car61"
+        android:layout_x="295dp"
+        android:layout_y="46dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="80.1%"
+        app:layout_marginTopPercent="7.6%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car62"
+        android:layout_x="275dp"
+        android:layout_y="46dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="75.1%"
+        app:layout_marginTopPercent="7.6%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car63"
+        android:layout_x="255dp"
+        android:layout_y="46dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="70.2%"
+        app:layout_marginTopPercent="7.6%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car64"
+        android:layout_x="235dp"
+        android:layout_y="46dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="65.2%"
+        app:layout_marginTopPercent="7.6%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/car65"
+        android:layout_x="215dp"
+        android:layout_y="46dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="60.3%"
+        app:layout_marginTopPercent="7.6%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/add2"
+        android:layout_x="277dp"
+        android:layout_y="219dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="75.1%"
+        app:layout_marginTopPercent="41.1%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/add3"
+        android:layout_x="257dp"
+        android:layout_y="219dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="70.2%"
+        app:layout_marginTopPercent="41.1%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/add4"
+        android:layout_x="237dp"
+        android:layout_y="219dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="65.2%"
+        app:layout_marginTopPercent="41.1%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/add5"
+        android:layout_x="217dp"
+        android:layout_y="219dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="60.3%"
+        app:layout_marginTopPercent="41.1%"
+        app:layout_widthPercent="3%"/>
+    <TextView
+        android:id="@+id/add6"
+        android:layout_x="197dp"
+        android:layout_y="219dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="55.3%"
+        app:layout_marginTopPercent="41.1%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/add7"
+        android:layout_x="177dp"
+        android:layout_y="259dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="50.4%"
+        app:layout_marginTopPercent="47.1%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/add8"
+        android:layout_x="157dp"
+        android:layout_y="299dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="45.4%"
+        app:layout_marginTopPercent="53%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/add9"
+        android:layout_x="137dp"
+        android:layout_y="339dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="40.5%"
+        app:layout_marginTopPercent="59.0%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/add10"
+        android:layout_x="117dp"
+        android:layout_y="379dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="35.5%"
+        app:layout_marginTopPercent="65.0%"
+        app:layout_widthPercent="3%"/>
+
+    <TextView
+        android:id="@+id/add11"
+        android:layout_x="97dp"
+        android:layout_y="419dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:textColorLink="@android:color/holo_green_light"
+        android:textSize="18sp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="30.6%"
+        app:layout_marginTopPercent="71.0%"
+        app:layout_widthPercent="3%"/>
+
+    <ImageView
+        android:id="@+id/carln1"
+        app:layout_heightPercent="0.2%"
+        app:layout_marginLeftPercent="59.2%"
+        app:layout_marginTopPercent="29.6%"
+        app:layout_widthPercent="25%"
+        android:layout_x="209dp"
+        android:layout_y="134dp"
+        app:srcCompat="@android:color/holo_red_light"/>
+
+    <ImageView
+        android:id="@+id/carln2"
+        app:layout_heightPercent="0.2%"
+        app:layout_marginLeftPercent="59.2%"
+        app:layout_marginTopPercent="25.6%"
+        app:layout_widthPercent="25%"
+        android:layout_x="209dp"
+        android:layout_y="118dp"
+        app:srcCompat="@android:color/holo_red_light"/>
+
+    <ImageView
+        android:id="@+id/carln3"
+        app:layout_heightPercent="0.2%"
+        app:layout_marginLeftPercent="59.2%"
+        app:layout_marginTopPercent="21.6%"
+        app:layout_widthPercent="25%"
+        android:layout_x="209dp"
+        android:layout_y="101dp"
+        app:srcCompat="@android:color/holo_red_light"/>
+
+    <ImageView
+        android:id="@+id/carln4"
+        app:layout_heightPercent="0.2%"
+        app:layout_marginLeftPercent="59.2%"
+        app:layout_marginTopPercent="17.6%"
+        app:layout_widthPercent="25%"
+        android:layout_x="209dp"
+        android:layout_y="85dp"
+        app:srcCompat="@android:color/holo_red_light"/>
+
+    <ImageView
+        android:id="@+id/carln5"
+        app:layout_heightPercent="0.2%"
+        app:layout_marginLeftPercent="59.2%"
+        app:layout_marginTopPercent="13.6%"
+        app:layout_widthPercent="25%"
+        android:layout_x="209dp"
+        android:layout_y="69dp"
+        app:srcCompat="@android:color/holo_red_light"/>
+
+    <ImageView
+        android:id="@+id/carln6"
+        app:layout_heightPercent="0.2%"
+        app:layout_marginLeftPercent="59.2%"
+        app:layout_marginTopPercent="9.6%"
+        app:layout_widthPercent="25%"
+        android:layout_x="209dp"
+        android:layout_y="53dp"
+        app:srcCompat="@android:color/holo_red_light"/>
+
+    <ImageView
+        android:id="@+id/timesleftup"
+        app:layout_heightPercent="0.4%"
+        app:layout_marginLeftPercent="47%"
+        app:layout_marginTopPercent="37%"
+        app:layout_widthPercent="4%"
+        android:layout_x="164dp"
+        android:layout_y="196dp"
+        android:rotation="45"
+        app:srcCompat="@android:color/holo_red_light"/>
+
+    <ImageView
+        android:id="@+id/timesleftdown"
+        app:layout_heightPercent="0.4%"
+        app:layout_marginLeftPercent="47%"
+        app:layout_marginTopPercent="37%"
+        app:layout_widthPercent="4%"
+        android:layout_x="164dp"
+        android:layout_y="196dp"
+        android:rotation="-45"
+        app:srcCompat="@android:color/holo_red_light"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/topline"
+        android:layout_x="152dp"
+        android:layout_y="219dp"
+        app:layout_heightPercent="0.4%"
+        app:layout_marginLeftPercent="45%"
+        app:layout_marginTopPercent="41.1%"
+        app:layout_widthPercent="47%"
+        app:srcCompat="@android:color/holo_blue_bright"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/bottline"
+        android:layout_x="152dp"
+        android:layout_y="460dp"
+
+        app:layout_heightPercent="0.4%"
+        app:layout_marginLeftPercent="45%"
+
+        app:layout_marginTopPercent="79.3%"
+        app:layout_widthPercent="47%"
+
+        app:srcCompat="@android:color/holo_blue_bright"/>
+
+    <ImageView
+        android:id="@+id/addver"
+        app:layout_heightPercent="0.4%"
+        app:layout_marginLeftPercent="18%"
+        app:layout_marginTopPercent="76.5%"
+        app:layout_widthPercent="4%"
+        android:layout_x="60dp"
+        android:layout_y="438dp"
+        android:rotation="90"
+        app:srcCompat="@android:color/holo_red_light"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/addhor"
+        app:layout_heightPercent="0.4%"
+        app:layout_marginLeftPercent="18%"
+        app:layout_marginTopPercent="76.5%"
+        app:layout_widthPercent="4%"
+        android:layout_x="60dp"
+        android:layout_y="438dp"
+        app:srcCompat="@android:color/holo_red_light"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/areYouSure"
+        app:layout_heightPercent="7.5%"
+        app:layout_marginLeftPercent="15%"
+        app:layout_marginTopPercent="33%"
+        app:layout_widthPercent="25%"
+        android:layout_x="35dp"
+        android:layout_y="194dp"
+        android:text="Button"
+        android:textSize="18sp"
+        android:scaleType="fitXY"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        />
+
+    <Button
+        android:id="@+id/repeat"
+        app:layout_heightPercent="7.5%"
+        app:layout_marginLeftPercent="15%"
+        app:layout_marginTopPercent="42%"
+        app:layout_widthPercent="25%"
+        android:layout_x="35dp"
+        android:layout_y="248dp"
+        android:text="repeat?"
+        android:textSize="16sp"
+        android:scaleType="fitXY"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        />
+
+    <Button
+        android:id="@+id/equals"
+        app:layout_heightPercent="7.5%"
+        app:layout_marginLeftPercent="40%"
+        app:layout_marginTopPercent="83%"
+        app:layout_widthPercent="25%"
+        android:layout_x="64dp"
+        android:layout_y="70dp"
+        android:text="equals"
+        android:textSize="16sp"
+        android:scaleType="fitXY"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        />
+
+    <Button
+        android:id="@+id/practice"
+        app:layout_heightPercent="7.5%"
+        app:layout_marginLeftPercent="5%"
+        app:layout_marginTopPercent="51%"
+        app:layout_widthPercent="31%"
+        android:layout_x="35dp"
+        android:layout_y="248dp"
+        android:text="Practice"
+        android:textSize="17sp"
+        android:scaleType="fitXY"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:textColor="?android:attr/colorFocusedHighlight"
+        android:elevation="0dp"
+        android:visibility="invisible"/>
+
+
+    <Button
+        android:id="@+id/second"
+        app:layout_heightPercent="7.5%"
+        app:layout_marginLeftPercent="40%"
+        app:layout_marginTopPercent="83%"
+        app:layout_widthPercent="25%"
+        android:layout_x="64dp"
+        android:layout_y="70dp"
+        android:text="Button"
+        android:textSize="18sp"
+        android:scaleType="fitXY"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        />
+
+    <Button
+        android:id="@+id/third"
+        app:layout_heightPercent="7.5%"
+        app:layout_marginLeftPercent="40%"
+        app:layout_marginTopPercent="83%"
+        app:layout_widthPercent="25%"
+        android:layout_x="64dp"
+        android:layout_y="70dp"
+        android:text="Button"
+        android:textSize="18sp"
+        android:scaleType="fitXY"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        />
+
+    <Button
+        android:id="@+id/fourth"
+        app:layout_heightPercent="7.5%"
+        app:layout_marginLeftPercent="40%"
+        app:layout_marginTopPercent="83%"
+        app:layout_widthPercent="25%"
+        android:layout_x="64dp"
+        android:layout_y="70dp"
+        android:text="Button"
+        android:textSize="18sp"
+        android:scaleType="fitXY"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        />
+
+    <Button
+        android:id="@+id/fifth"
+        app:layout_heightPercent="7.5%"
+        app:layout_marginLeftPercent="40%"
+        app:layout_marginTopPercent="83%"
+        app:layout_widthPercent="25%"
+        android:layout_x="64dp"
+        android:layout_y="70dp"
+        android:text="Button"
+        android:textSize="18sp"
+        android:scaleType="fitXY"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        />
+
+    <Button
+        android:id="@+id/sixth"
+        app:layout_heightPercent="7.5%"
+        app:layout_marginLeftPercent="40%"
+        app:layout_marginTopPercent="83%"
+        app:layout_widthPercent="25%"
+        android:layout_x="65dp"
+        android:layout_y="70dp"
+        android:text="Button"
+        android:textSize="18sp"
+        android:scaleType="fitXY"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/arrowbod"
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="47%"
+        app:layout_marginTopPercent="18.5%"
+        app:layout_widthPercent="8%"
+        android:layout_x="19dp"
+        android:layout_y="380dp"
+        app:srcCompat="@drawable/pencil"
+        />
+
+    <TextView
+        android:id="@+id/stepCount"
+        app:layout_heightPercent="15%"
+        app:layout_marginLeftPercent="16%"
+        app:layout_marginTopPercent="20%"
+        app:layout_widthPercent="47%"
+        android:layout_x="59dp"
+        android:layout_y="114dp"
+        android:fontFamily="cursive"
+        android:text="Start"
+        android:textColor="?android:attr/textColorHighlight"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        />
+
+
+
+    <Button android:id="@+id/btn_fullscreen_ad"
+
+            app:layout_heightPercent="10%"
+            app:layout_marginLeftPercent="5%"
+            app:layout_marginTopPercent="5%"
+            app:layout_widthPercent="35%"
+
+            android:text="Support My App"
+            android:textSize="14sp"
+            android:scaleType="fitXY"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/Banner_Long_Calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/Banner_Long_Calc">
+    </com.google.android.gms.ads.AdView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/Inter_ad">
+    </com.google.android.gms.ads.AdView>
+
+    <EditText
+        android:layout_x="195dp"
+        android:layout_y="139dp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="10%"
+        app:layout_marginTopPercent="65%"
+        app:layout_widthPercent="7%"
+
+        android:textSize="14sp"
+        android:scaleType="fitXY"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="?attr/colorControlHighlight"
+        android:inputType="number"
+        android:id="@+id/topE"
+        android:hint="0"/>
+
+    <EditText
+        android:layout_x="195dp"
+        android:layout_y="139dp"
+        app:layout_heightPercent="4%"
+        app:layout_marginLeftPercent="10%"
+        app:layout_marginTopPercent="71%"
+        app:layout_widthPercent="7%"
+        android:textSize="14sp"
+        android:scaleType="fitXY"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="@color/common_google_signin_btn_text_light_disabled"
+        android:id="@+id/bottE"
+        android:inputType="number"
+        android:hint="0"/>
+
+
+</android.support.percent.PercentRelativeLayout>
